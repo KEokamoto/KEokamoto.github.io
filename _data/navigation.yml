@@ -1,41 +1,50 @@
 # main links links
 main:
 
+  - title: "🙋🏻‍♀️About Me"
+    url: /aboutme/
+    subpages: 
+      - title: "🌸Japanese"
+        url: /aboutme/japanese/
+      - title: "📸Macro"
+        url: /aboutme/photography/
+
   - title: "📌CV"
     url: /cv/
+    subpages: 
+      - title: "💁🏻‍♀️Presentations" 
+        url: /cv/presentations/
+      - title: "📝Grants"
+        url: /cv/grants/
 
-  - title: "📝Grants"
-    url: /grants/    
+  - title: "🪲Undergrad projects" 
+    url: /undergrad/
+    subpages: 
+      - title: "🌾Tribolium"
+        url: /undergrad/tribolium/
+      - title: "🐝Palynology"
+        url: /undergrad/palynology/
+      - title: "🐜🪳🧫REUs"
+        url: /undergrad/summer/
+      - title: "𓆦Cicada"
+        url: /undergrad/summer/    
 
-  - title: "💁🏻‍♀️Presentations"
-    url: /cv/  
-    
-  - title: "🌾Tribolium"
-    url: /tribolium/    
-
-  - title: "🐝Palynology"
-    url: /palynology/   
- 
-  - title: "🐜🪳🧫REUs"
-    url: /summer/   
-    
   - title: "🌱Leadership"
-    url: /leadership/     
+    url: /leadership/
 
   - title: "💡Journalism"
-    url: /journalism/     
-
-  - title: "📸Macro"
-    url: /photography/  
-
-  - title: "🌸Japanese" 
-    url: /japanese/
+    url: /journalism/
+    subpages:
+      - title: "SICB Student Journalist"
+        url: /journalism/SICB/
+      - title: "Creative Writing Non-fiction"
+        url: /journalism/CWNF/
 
   #- title: "Publications"
     url: /publications/
     
   #- title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
     
   #- title: "Portfolio"
     url: /portfolio/

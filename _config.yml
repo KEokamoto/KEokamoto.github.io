@@ -26,9 +26,10 @@ author:
   name             : "岡本かおる"
   pronouns         : "she/her"  
   bio              : "bio description text here"
-  location         : "New Jersey"
-  location         : "Atlanta, GA"
-  location         : "Pasadena, CA"
+  locations:
+    - "New Jersey"
+    - "Atlanta, GA"
+    - "Pasadena, CA"
   employer         : "California Institute of Technology"
   uri              : # URL
   email            : "okamoto(at)caltech(dot)edu" 

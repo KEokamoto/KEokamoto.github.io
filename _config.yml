@@ -21,10 +21,11 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Profile_pic"
   name             : "Kaoru Esther Okamoto"
+  name             : "岡本かおる"
   pronouns         : "she/her"  
-  bio              : "岡本かおる"
+  bio              : "bio description text here"
   location         : "New Jersey"
   location         : "Atlanta, GA"
   location         : "Pasadena, CA"

@@ -1,0 +1,25 @@
+nav ul {
+  list-style-type: none;
+}
+
+nav ul ul {
+  display: none; /* Hide submenus by default */
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li:hover > ul {
+  display: block; /* Show submenu on hover */
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}

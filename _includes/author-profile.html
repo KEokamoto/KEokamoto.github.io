@@ -33,8 +33,8 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
-      {% if site.author.email %}
-        <p><strong>Email:</strong> {{ site.author.email }}</p>
+      {% if author.email %}
+        <li class="author_desktop"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ author.email }}</li>
       {% endif %}
      
       <!-- Font Awesome and Academicons icons / Academic websites -->

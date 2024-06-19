@@ -16,22 +16,19 @@ main:
   - title: "🐝Palynology"
     url: /palynology/   
  
-  - title: "🐜Fire Ant"
-    url: /fire_ant/   
+  - title: "🐜🪳🧫REUs"
+    url: /summer/   
     
-  - title: "🪳Cockroach"
-    url: /cockroach/   
-
   - title: "🌱Leadership"
     url: /leadership/     
 
-  - title: "Journalism"
+  - title: "💡Journalism"
     url: /journalism/     
 
-  - title: "Macro photography"
+  - title: "📸Macro"
     url: /photography/  
 
-  - title: "Japanese" 
+  - title: "🌸Japanese" 
     url: /japanese/
 
   #- title: "Publications"

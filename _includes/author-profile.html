@@ -33,10 +33,12 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
-      {% if site.author.location %}
-        <p><strong>Location:</strong> {{ site.author.location | markdownify }}</p>
+      {% if author.location %}
+        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
-
+      {% if site.author.email %}
+        <p><strong>Email:</strong> {{ site.author.email }}</p>
+      {% endif %}
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.arxiv %}
         <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>

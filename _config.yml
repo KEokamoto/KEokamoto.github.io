@@ -22,10 +22,12 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "岡本かおる"
+  name             : "Kaoru Esther Okamoto"
   pronouns         : "she/her"  
-  bio              : "Kaoru Esther Okamoto"
-  location         : "New Jersey / Atlanta, GA / Pasadena, CA"
+  bio              : "岡本かおる"
+  location         : "New Jersey"
+  location         : "Atlanta, GA"
+  location         : "Pasadena, CA"
   employer         : "California Institute of Technology"
   uri              : # URL
   email            : "okamoto(at)caltech(dot)edu" 

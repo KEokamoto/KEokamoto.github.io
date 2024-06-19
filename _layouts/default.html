@@ -7,25 +7,37 @@ layout: compress
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        {% for item in site.data.navigation.main %}
+          <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+            {% if item.subpages %}
+              <ul>
+                {% for subpage in item.subpages %}
+                  <li><a href="{{ subpage.url }}">{{ subpage.title }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
 
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
+  <main>
     {{ content }}
+  </main>
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
-  </body>
+  <footer>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+  </footer>
+</body>
 </html>

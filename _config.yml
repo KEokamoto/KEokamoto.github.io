@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "headshot_square.jpeg"
-  name             : "Kaoru Esther Okamoto<br>⎯⎯⎯⎯<br>岡本かおる"
+  name             : "Kaoru Esther Okamoto<br><br>岡本かおる"
   bio              : "PhD Biology Student"
 #  pronouns         : "she/her"  
   locations:

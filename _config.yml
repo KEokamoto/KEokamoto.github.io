@@ -10,9 +10,9 @@
 locale                   : "en-US"
 title                    : "Kaoru Esther Okamoto"
 title_separator          : "-"
-name                     : &name "岡本かおる"
+name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://okamoto.github.io"
+url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -22,13 +22,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "岡本かおる"
+  pronouns         : "she/her"  
+  bio              : "Kaoru Esther Okamoto"
+  location         : "New Jersey / Atlanta, GA / Pasadena, CA"
+  employer         : "California Institute of Technology"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "okamoto(at)caltech(dot)edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile

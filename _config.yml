@@ -23,15 +23,10 @@ author:
   # Biographic information
   avatar           : "headshot_square.jpeg"
   name             : "Kaoru Esther Okamoto"
-  names: 
-    - "Kaoru Esther Okamoto"
-    - "岡本かおる"
+  name             : "岡本かおる"
   pronouns         : "she/her"  
   bio              : "bio description text here"
-  locations:
-    - "New Jersey"
-    - "Atlanta, GA"
-    - "Pasadena, CA"
+  location         : "New Jersey<br>Atlanta, GA<br>Pasadena, CA"
   employer         : "California Institute of Technology"
   uri              : # URL
   email            : "okamoto(at)caltech(dot)edu" 

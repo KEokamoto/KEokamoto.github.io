@@ -1,6 +1,5 @@
 # main links links
 main:
-
   - title: "🙋🏻‍♀️About Me"
     url: /aboutme/
     subpages: 
@@ -8,16 +7,14 @@ main:
         url: /aboutme/japanese/
       - title: "📸Macro"
         url: /aboutme/photography/
-
   - title: "📌CV"
     url: /cv/
     subpages: 
-      - title: "💁🏻‍♀️Presentations" 
+      - title: "💁🏻‍♀️Presentations"
         url: /cv/presentations/
       - title: "📝Grants"
         url: /cv/grants/
-
-  - title: "🪲Undergrad projects" 
+  - title: "🪲Undergrad projects"
     url: /undergrad/
     subpages: 
       - title: "🌾Tribolium"
@@ -27,11 +24,9 @@ main:
       - title: "🐜🪳🧫REUs"
         url: /undergrad/summer/
       - title: "𓆦Cicada"
-        url: /undergrad/summer/    
-
+        url: /undergrad/summer/
   - title: "🌱Leadership"
     url: /leadership/
-
   - title: "💡Journalism"
     url: /journalism/
     subpages:
@@ -39,18 +34,13 @@ main:
         url: /journalism/SICB/
       - title: "Creative Writing Non-fiction"
         url: /journalism/CWNF/
-
   #- title: "Publications"
     url: /publications/
-    
   #- title: "Teaching"
     url: /teaching/
-    
   #- title: "Portfolio"
     url: /portfolio/
-        
   #- title: "Blog Posts"
     url: /year-archive/
-
   #- title: "Guide"
     url: /markdown/

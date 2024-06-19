@@ -23,7 +23,9 @@ author:
   # Biographic information
   avatar           : "headshot_square.jpeg"
   name             : "Kaoru Esther Okamoto"
-  name             : "岡本かおる"
+  names: 
+    - "Kaoru Esther Okamoto"
+    - "岡本かおる"
   pronouns         : "she/her"  
   bio              : "bio description text here"
   locations:
